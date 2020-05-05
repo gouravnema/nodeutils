@@ -1,0 +1,22 @@
+{
+  "name": "nodeutils",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "moment": "^2.25.3",
+    "redis": "^3.0.2"
+  },
+  "bin": {
+    "hellonode": "./bin/hellonode.js",
+    "twonboarding": "./bin/twonboarding.js",
+    "gx": "./bin/gexec.js"
+  },
+  "preferGlobal": true
+}
